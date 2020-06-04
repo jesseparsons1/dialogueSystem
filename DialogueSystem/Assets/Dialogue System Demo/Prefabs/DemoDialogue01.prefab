@@ -1,0 +1,207 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5167562509755816992
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5167562509755816998}
+  - component: {fileID: 5167562509755816999}
+  m_Layer: 0
+  m_Name: DemoDialogue01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &5167562509755816998
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5167562509755816992}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &5167562509755816999
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5167562509755816992}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ba0b06359ce642cbab0df4f8cace830, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  advanceDialogueKey: 13
+  advanceDialoguePromptSprite: {fileID: 21300000, guid: f604db7d278394ec1a97ccdd332abaed,
+    type: 3}
+  fastFowardDialogueKey: 32
+  textStartDelay: 0.1
+  characterInterval: 0.03
+  betweenSpeakerDelay: 0.2
+  previousSpeakerPortraitPersists: 1
+  textScrollSound: {fileID: 8300000, guid: 847778467bb2948fa9981a6deefc5e65, type: 3}
+  textSkipSound: {fileID: 8300000, guid: aee915a39417b49f49cea42d7a20d389, type: 3}
+  portraitSprites:
+  - {fileID: 3858002246529815411, guid: c23f652b474774661acf5c1f6a3354d0, type: 3}
+  - {fileID: 977955038302344015, guid: c23f652b474774661acf5c1f6a3354d0, type: 3}
+  - {fileID: 3858002246529815411, guid: c23f652b474774661acf5c1f6a3354d0, type: 3}
+  - {fileID: 977955038302344015, guid: c23f652b474774661acf5c1f6a3354d0, type: 3}
+  - {fileID: 8320270800704952969, guid: c23f652b474774661acf5c1f6a3354d0, type: 3}
+  - {fileID: 977955038302344015, guid: c23f652b474774661acf5c1f6a3354d0, type: 3}
+  - {fileID: 8320270800704952969, guid: c23f652b474774661acf5c1f6a3354d0, type: 3}
+  - {fileID: 3858002246529815411, guid: c23f652b474774661acf5c1f6a3354d0, type: 3}
+  - {fileID: 977955038302344015, guid: c23f652b474774661acf5c1f6a3354d0, type: 3}
+  - {fileID: 8320270800704952969, guid: c23f652b474774661acf5c1f6a3354d0, type: 3}
+  - {fileID: -1300208338853626486, guid: c23f652b474774661acf5c1f6a3354d0, type: 3}
+  - {fileID: 977955038302344015, guid: c23f652b474774661acf5c1f6a3354d0, type: 3}
+  - {fileID: 977955038302344015, guid: c23f652b474774661acf5c1f6a3354d0, type: 3}
+  - {fileID: 8320270800704952969, guid: c23f652b474774661acf5c1f6a3354d0, type: 3}
+  - {fileID: 977955038302344015, guid: c23f652b474774661acf5c1f6a3354d0, type: 3}
+  - {fileID: -1300208338853626486, guid: c23f652b474774661acf5c1f6a3354d0, type: 3}
+  - {fileID: 3858002246529815411, guid: c23f652b474774661acf5c1f6a3354d0, type: 3}
+  - {fileID: 8320270800704952969, guid: c23f652b474774661acf5c1f6a3354d0, type: 3}
+  - {fileID: -1300208338853626486, guid: c23f652b474774661acf5c1f6a3354d0, type: 3}
+  - {fileID: 977955038302344015, guid: c23f652b474774661acf5c1f6a3354d0, type: 3}
+  - {fileID: 8320270800704952969, guid: c23f652b474774661acf5c1f6a3354d0, type: 3}
+  - {fileID: -1300208338853626486, guid: c23f652b474774661acf5c1f6a3354d0, type: 3}
+  - {fileID: 977955038302344015, guid: c23f652b474774661acf5c1f6a3354d0, type: 3}
+  - {fileID: -1300208338853626486, guid: c23f652b474774661acf5c1f6a3354d0, type: 3}
+  - {fileID: -2957759601887332838, guid: c23f652b474774661acf5c1f6a3354d0, type: 3}
+  - {fileID: 977955038302344015, guid: c23f652b474774661acf5c1f6a3354d0, type: 3}
+  flipPortraits: 0000000000000000000000000000000000000000000000000000
+  speakerNames:
+  - WRIGHT
+  - CLARK
+  - WRIGHT
+  - CLARK
+  - C. GRAY
+  - CLARK
+  - C. GRAY
+  - WRIGHT
+  - CLARK
+  - C. GRAY
+  - HAYES
+  - CLARK
+  - CLARK
+  - C. GRAY
+  - CLARK
+  - HAYES
+  - WRIGHT
+  - C. GRAY
+  - HAYES
+  - CLARK
+  - C. GRAY
+  - HAYES
+  - CLARK
+  - HAYES
+  - 
+  - CLARK
+  boxPositions: 0000000001000000000000000100000000000000010000000000000000000000010000000000000001000000010000000100000000000000010000000100000000000000000000000100000001000000000000000100000001000000010000000100000001000000
+  dialogueTexts:
+  - Woah... What the...?
+  - Wright! Take a look at this...!
+  - Is that... What I think it is...?
+  - Commander! Commander!
+  - What is it Clark? This better be important.
+  - You're going to want to see this.
+  - Saturn's moons. Is that a...?
+  - 'A breach.
+
+    In Sector 9-C.'
+  - We've got potential hostile organisms on the ship.
+  - Get me Hayes.
+  - Hayes here.
+  - There's been a security breach... It's looking high risk.
+  - We're picking up heat signals. They're heading towards the combustion chamber.
+  - Hayes. Get a team. Get to Sector 9-C. Ensure the safety of this ship. At whatever
+    cost...
+  - Hayes. Talk to me. What do you see?
+  - Alien lifeforms on board. We're under attack.
+  - Commander. It's worse than we thought. There's been a second breach.
+  - We need the 9-C situation under control. We can't let them get to the combustion
+    chamber.
+  - WE'RE OUTNUMBERED. LOSING MEN FAST!
+  - Commander - we've got to get him out of there.
+  - Hayes. Keep it together. We can't lose a handle on this. The whole ship is in
+    danger.
+  - "We're/                OVERRUN///        \n\t\tTHERE'S MORE OF ///"
+  - What's going on? Wright, what's happening?
+  - "\t///We //         NEED//\n///    ///////////        /////////"
+  - "\u23C1\u2291\u27DF\u2307 \u27DF\u2307 \u23C3\u2330\u27DF\u27D2\u22CF \u2330\u23C3\u22CF\u260C\u238D\u23C3\u260C\u27D2
+    \u2359\u27D2 \u2385\u235C\u22CF \u260D\u22CF\u235C\u2359 \u2359\u2291\u23C3\u23C1
+    \u27DF\u23C1 \u22D4\u27D2\u23C3\u22CF\u2307  \u23DA\u238D\u23C1 \u2359\u27D2\n\u2291\u23C3\u2390\u27D2
+    \u2291\u23C3\u22AC\u27D2\u2307 \u23C3\u22CF\u2385 \u2291\u27D2 \u27DF\u2307 \u27DF\u22CF
+    \u2385\u23C3\u22CF\u260C\u27D2\u2340. "
+  - HAYES! HAYES! HAAAAYES!!!!
+  shakeAtStarts: 0101000000000000000000000000010000000000000000000000
+  shakeStrengths:
+  - {x: 0.3, y: 10}
+  - {x: 0.3, y: 20}
+  - {x: 0.3, y: 10}
+  - {x: 0.3, y: 20}
+  - {x: 0, y: 0}
+  - {x: 0.3, y: 20}
+  - {x: 0, y: 0}
+  - {x: 0.3, y: 10}
+  - {x: 0.3, y: 20}
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  - {x: 0.3, y: 20}
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  - {x: 0.3, y: 20}
+  - {x: 0, y: 0}
+  - {x: 0.3, y: 10}
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  - {x: 0.3, y: 20}
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  - {x: 0.3, y: 20}
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  - {x: 0.3, y: 20}
+  initialDelays:
+  - 0.5
+  - 0.5
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0.5
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
